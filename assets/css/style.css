@@ -9,7 +9,7 @@
 }
 
 h1 {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #2A9D8F;
@@ -26,6 +26,7 @@ h1 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
+    color:#2A9D8F;
 }
 
 #menu, logo {
@@ -92,6 +93,13 @@ h1 {
     position: absolute;
 }
 
+mark{
+    background-color: #264653;
+    font-size: 180%;
+    color: #E76F51;
+    border-radius: 20px 50px;
+}
+  /* Button Style */
 button {
   background-color: #E76F51;
   border-radius: 10px;
