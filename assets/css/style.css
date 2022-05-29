@@ -93,13 +93,14 @@ h1 {
     position: absolute;
 }
 
+/* highlight text */
 mark{
     background-color: #264653;
     font-size: 180%;
     color: #E76F51;
     border-radius: 20px 50px;
 }
-  /* Button Style */
+  /* button Style */
 button {
   background-color: #E76F51;
   border-radius: 10px;
