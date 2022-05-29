@@ -113,4 +113,14 @@ button {
   
 }
 
+/* Info section */
+
+.flex-container {
+    background-color: #2A9D8F;
+    display: flex;
+    flex-direction: row;
+    color: #E76F51;
+    padding: 20px;
+}
+
 
