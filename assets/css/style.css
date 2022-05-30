@@ -5,7 +5,8 @@
     margin: 0;
     padding: 0;
     border: none;
- 
+  
+
 }
 
 body{
@@ -135,10 +136,57 @@ button {
 .products {
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 50px;
+    gap: 0;
+   
   }
- 
 
+ img {
+    border: 2px solid #E9C46A;
+    border-radius: 4px;
+    padding: 25px;
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+ }
+
+ /* teste card */
+ .list {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .list button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .list button:hover {
+    opacity: 0.7;
+  }
+
+ /* p > .list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+ } */
 
 /* Media queries */
 
