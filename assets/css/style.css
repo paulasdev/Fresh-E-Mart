@@ -117,10 +117,27 @@ button {
 .flex-container {
     background-color: #2A9D8F;
     display: flex;
-    flex-direction: row;
     color: #E76F51;
     padding: 20px;
+    text-align: center;
 }
+
+#info > h2 {
+    background: #E9C46A;
+    padding: 10px;
+    border-radius: 50%;  
+    text-align: center;
+  
+}
+
+/* products sections */
+
+.products {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+  }
+ 
 
 
 /* Media queries */
