@@ -8,8 +8,12 @@
  
 }
 
-h1 {
+body{
     font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #2A9D8F;
@@ -66,7 +70,6 @@ h1 {
     background: url('../images/bg3.png') no-repeat center center;
     background-color: #E9C46A;
     background-size: cover;
-    /* opacity: 0.; */
     height: 600px;
     width: 100%;
    
@@ -75,7 +78,6 @@ h1 {
 #text {
    
     font-size: 130%;
-    font-family: 'Roboto Mono', sans-serif;
     color: #E76F51;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -83,18 +85,15 @@ h1 {
     width: 800px;
     height: 200px;
 
-    padding-top: 20px;
-    padding-left: 10px;
-  
-
     top: 180px;
-    left: 150px;
+    left: 150px; 
 
     position: absolute;
 }
 
 /* highlight text */
 mark{
+    
     background-color: #264653;
     font-size: 180%;
     color: #E76F51;
@@ -124,3 +123,14 @@ button {
 }
 
 
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and  (max-width: 1200px) {
+    #text {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+}
+    
