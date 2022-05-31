@@ -162,7 +162,7 @@ img {
     object-fit: cover;
 }
 
-/* teste card */
+/* product card */
 .list {
     
     border-radius: 10px;
@@ -184,7 +184,15 @@ img {
     opacity: 0.7;
 }
 
+/* footer */
+footer {
+    display: block;
+    background-color: #E9C46A;
+    padding: 20px;
+    color:#2A9D8F;
+    text-align: center;
 
+}
 
 /* Media queries */
 
