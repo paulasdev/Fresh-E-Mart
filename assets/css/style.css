@@ -102,20 +102,20 @@ mark {
 }
 
 /* button Style */
-button {
+p > a{
 
-    border-radius: 10px;
-    outline: 0;
-    padding: 15px;
-    color: white;
+    color: #2A9D8F;
+    padding: 10px 15px;
+    margin: 40px 0;
+    /* width: 120px; */
+    border-radius: 5px;
     background-color: #E76F51;
-    margin: 4px 0;
-    text-align: center;
-    cursor: pointer;
-    width: 50%;
-    font-size: 18px;
-
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    /* left: 10%; */
 }
+
+
 
 /* Info section */
 
@@ -127,16 +127,6 @@ button {
     text-align: center;
 }
 
-/* #info>h2 {
-    background: #E9C46A;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
-
-} */
-
-
-/* products sections */
 
 .products {
     display: grid;
@@ -184,6 +174,47 @@ img {
     opacity: 0.7;
 }
 
+
+.form h2 {
+    padding-top: 30px;
+}
+
+.form {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.user-details label {
+    display: block;
+    padding: 10px 0;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bolder;
+ 
+}
+
+.user-details input {
+    border: 2px solid #2A9D8F;
+    border-radius: 5px;
+    width: 50%;
+    letter-spacing: .1em;
+    line-height: 2em;
+    background: transparent;
+} 
+
+/* submit button */
+.submit {
+    color: #2A9D8F;
+    padding: 10px 15px;
+    margin: 40px 0;
+    width: 120px;
+    border-radius: 5px;
+    background-color: #E76F51;
+    text-transform: uppercase;
+    left: 10%;
+}
 /* footer */
 footer {
     display: block;
