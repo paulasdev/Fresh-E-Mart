@@ -54,9 +54,6 @@ logo {
     border-bottom: 2px solid #2A9D8F;
 }
 
-.active {
-    border-bottom: 2px solid #2A9D8F;
-}
 
 /* hero image and cover text*/
 
@@ -227,6 +224,7 @@ img {
 } 
 
 /* submit button */
+
 .submit {
     color: #2A9D8F;
     padding: 10px 15px;
@@ -237,14 +235,48 @@ img {
     text-transform: uppercase;
     left: 10%;
 }
+/* Newsletter */
+  .container {
+      position: left;
+      overflow: auto;
+  }
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 1rem;
+    border: 1px solid #ccc;
+   
+  }
+
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+
+  input[type=submit] {
+    background-color: #2A9D8F;
+    color: white;
+    border-radius: 1rem;
+  }
+  
+  /* input[type=submit]:hover {
+    opacity: 0.8;
+  } */
+
+
 /* footer */
 footer {
     display: block;
     background-color: #E9C46A;
-    padding: 20px;
+    padding: 40px;
+  
+
+}
+footer p {
+
     color:#2A9D8F;
     text-align: center;
-
 }
 
 /* Media queries */
