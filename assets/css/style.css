@@ -5,12 +5,24 @@
     margin: 0;
     padding: 0;
     border: none;
-    font-family: 'Roboto Mono', monospace;
     box-sizing: border-box;
-
-
 }
 
+
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* main {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+    background-color: #fff;
+} */
 
 
 h1 {
@@ -22,21 +34,21 @@ h1 {
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 2.8rem;
     margin-left: 30px;
 }
 
 /* navigation links */
 
 #menu {
-    font-size: 110%;
+    font-size: 1.8rem;
     letter-spacing: 4px;
     color: #2A9D8F;
 }
 
 #menu,
 logo {
-    line-height: 75px;
+    line-height: 7.5rem;
 }
 
 #menu li {
@@ -51,7 +63,7 @@ logo {
 }
 
 #menu a:hover {
-    border-bottom: 2px solid #2A9D8F;
+    border-bottom: 0.2rem solid #2A9D8F;
 }
 
 
