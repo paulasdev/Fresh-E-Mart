@@ -8,35 +8,77 @@
     box-sizing: border-box;
 }
 
-
+html {
+    font-size: 62.5%;
+}
 
 body {
-    font-size: 1.6rem;
     font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    color: #47a81d;
+    
 }
-
-/* main {
-    display: flex;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    z-index: 999999;
-    background-color: #fff;
-} */
-
 
 h1 {
-
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #2A9D8F;
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 1.05;
+    color: #264653;
+    letter-spacing: 1px;
+    margin-bottom: 3.2rem;
 }
 
-#logo {
-    float: left;
-    font-size: 2.8rem;
-    margin-left: 30px;
+
+ /* hero image */
+ .section-hero {
+ 
+    background-color: #fbb386;
+    padding: 9.6rem 0;
+ }
+
+ .hero {
+  
+    max-width: 130rem;
+     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9.6rem;
+    align-items: center;
+ }
+
+
+
+.hero-description { 
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 4.8rem;
 }
+
+.btn:link, 
+.btn:visited {
+    display: inline-block;
+    background-color: #f6660d;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1.6rem 3.2rem;
+    border-radius: 42px;
+}
+
+.btn:hover, 
+.btn:active {
+    display: inline-block;
+    background-color: #7b3307;
+}
+
+.hero-img {
+    /* height: 600px; */
+    width: 100%;
+    /* background-image: url('assets/images/bg3.png') no-repeat center center; */
+    /* background-size: cover;
+    position: relative; */
+}
+
 
 /* navigation links */
 
@@ -67,24 +109,6 @@ logo {
 }
 
 
-/* hero image and cover text*/
-
-#hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-#hero-image {
-
-    background: url('../images/bg3.png') no-repeat center center;
-    background-color: #E9C46A;
-    background-size: cover;
-    height: 600px;
-    width: 100%;
-
-}
 
 #text {
 
@@ -293,17 +317,11 @@ footer p {
 
 /* Media queries */
 
-/* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-    #text {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
+/*for screen sizes over 360px and under 540px wide*/
+@media (min-width: 360px) {
+    
+    /*style changes to the header*/ 
+    header {
+        justify-content: space-around;
     }
 }
-
-@media screen and (max-width: 1200px) {
-    .column {
-      width: 100%;
-    }
-  }
