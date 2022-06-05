@@ -80,7 +80,24 @@ h1 {
 }
 
 
-/* navigation links */
+/* logo and nav */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: auto;
+   
+  
+}
+
+.title-anchor {
+    text-decoration: none;
+}
 
 #menu {
     font-size: 1.8rem;
