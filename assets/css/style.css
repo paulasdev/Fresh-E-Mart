@@ -16,7 +16,7 @@ body {
     font-family: 'Roboto Mono', monospace;
     font-weight: 300;
     color: #47a81d;
-    
+
 }
 
 h1 {
@@ -35,15 +35,15 @@ h1 {
 } */
 
 
- /* hero image */
- .section-hero {
- 
+/* hero image */
+.section-hero {
+
     background-color: #fbb386;
     padding: 4.8rem 0 9.6rem 0;
- }
+}
 
- .hero {
-  
+.hero {
+
     max-width: 130rem;
     margin: 0 auto;
     padding: 0 3.2rem;
@@ -51,17 +51,17 @@ h1 {
     grid-template-columns: 1fr 1fr;
     gap: 9.6rem;
     /* align-items: center; */
- }
+}
 
 
 
-.hero-description { 
+.hero-description {
     font-size: 2rem;
     line-height: 1.6;
     margin-bottom: 4.8rem;
 }
 
-.btn:link, 
+.btn:link,
 .btn:visited {
     display: inline-block;
     background-color: #f6660d;
@@ -72,14 +72,14 @@ h1 {
     border-radius: 42px;
 }
 
-.btn:hover, 
+.btn:hover,
 .btn:active {
     display: inline-block;
     background-color: #7b3307;
 }
 
 .hero-image {
-  
+
     height: auto;
     width: 100%;
     background: url('../images/hero-image.png') no-repeat center center;
@@ -93,15 +93,16 @@ header {
     justify-content: space-between;
     align-items: center;
 
-   
+
     height: 9.6rem;
     padding: 0 4.8rem;
 
 }
+
 .logo {
     padding-top: 1.2rem;
-   height: 9.6rem;
-   
+    height: 9.6rem;
+
 }
 
 .title-anchor {
@@ -149,18 +150,20 @@ header {
 /* Info section */
 
 .info-section {
-    
-    /* padding: 9.6rem 0; */
-    
+
+    padding: 9.6rem 0;
+
     /* background-color: #ffbd59; */
-    
+
 }
+
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     /* gap: 9.6rem; */
 }
-.info-section div div{
+
+.info-section div div {
     padding: 9.8rem;
     /* background-color: #ffbd59; */
 }
@@ -171,45 +174,80 @@ hr {
     margin: 2px 0;
 }
 
-/* .container {
-    
-     padding: 0 3.2rem; 
+.container {
+
+    padding: 0 3.2rem;
     margin: 0 auto;
-   
-} */
-
-
- 
-  /* Clear floats after image containers */
-  /* .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-.product-list {
-    
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 100%;
-    max-width: 200px;
-    height: auto;
-    margin: auto;
-    text-align: center; 
-    justify-content: space-between; 
-
 
 }
 
-.price {
-    color: #264653;
-    font-size: 22px;
-} */
+
+/* product section */
+
+.products-section {
+
+    padding: 5rem 0;
+   
+}
+
+.product-list {
+    border: 1px solid #f6660d;
+    border-radius: 4px;
+  
+
+}
+.product-list p {
+   
+    font-size: 2.4rem;
+    color: #f6660d;
+    font-weight: 600;
+    margin-bottom: 3.2rem;
+}
+
+.products-atributes {
+    font-size: 1.8rem;
+}
+
+.products-atributes li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.product-img {
+    height: 200px;
+    width: 100%;
+}
+ .tag {
+    position: relative;
+    text-align: center;
+    padding: 0.4rem 0.8rem;
+    color: #264653; 
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    
+ }
+.tag-discount {
+
+    position: absolute;
+    top: 0.8rem;
+    right: 1.6rem;
+    background-color: #47a81d;
+    border-radius: 100px;
+}
+
+.tag-new {
+    position: absolute;
+    top: 0.8rem;
+    right: 1.6rem;
+    background-color: #f6660d;
+    border-radius: 100px;
+
+}
 
 
-
-
-
+/* subscribe */
 
 .form h2 {
     padding-top: 30px;
@@ -228,7 +266,7 @@ hr {
     text-transform: uppercase;
     letter-spacing: .1em;
     font-weight: bolder;
- 
+
 }
 
 .user-details input {
@@ -238,7 +276,7 @@ hr {
     letter-spacing: .1em;
     line-height: 2em;
     background: transparent;
-} 
+}
 
 /* submit button */
 
@@ -252,32 +290,35 @@ hr {
     text-transform: uppercase;
     left: 10%;
 }
+
 /* Newsletter */
-  .container {
-      position: left;
-      overflow: auto;
-  }
-  input[type=text], input[type=submit] {
+.container {
+    position: left;
+    overflow: auto;
+}
+
+input[type=text],
+input[type=submit] {
     width: 100%;
     padding: 12px;
     margin: 8px 0;
     display: inline-block;
     border-radius: 1rem;
     border: 1px solid #ccc;
-   
-  }
 
-  input[type=checkbox] {
+}
+
+input[type=checkbox] {
     margin-top: 16px;
-  }
+}
 
-  input[type=submit] {
+input[type=submit] {
     background-color: #2A9D8F;
     color: white;
     border-radius: 1rem;
-  }
-  
-  /* input[type=submit]:hover {
+}
+
+/* input[type=submit]:hover {
     opacity: 0.8;
   } */
 
@@ -287,12 +328,13 @@ footer {
     display: block;
     background-color: #E9C46A;
     padding: 40px;
-  
+
 
 }
+
 footer p {
 
-    color:#2A9D8F;
+    color: #2A9D8F;
     text-align: center;
 }
 
@@ -300,8 +342,8 @@ footer p {
 
 /*for screen sizes over 360px and under 540px wide*/
 @media (min-width: 360px) {
-    
-    /*style changes to the header*/ 
+
+    /*style changes to the header*/
     header {
         justify-content: space-around;
     }
