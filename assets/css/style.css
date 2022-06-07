@@ -33,7 +33,7 @@ h1 {
  .section-hero {
  
     background-color: #fbb386;
-    padding: 9.6rem 0;
+    padding: 4.8rem 0 9.6rem 0;
  }
 
  .hero {
@@ -74,9 +74,7 @@ h1 {
 .hero-img {
     /* height: 600px; */
     width: 100%;
-    /* background-image: url('assets/images/bg3.png') no-repeat center center; */
-    /* background-size: cover;
-    position: relative; */
+    height: auto;
 }
 
 
@@ -85,14 +83,16 @@ h1 {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+   
+    height: 9.6rem;
+    padding: 0 4.8rem;
+
 }
 .logo {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    margin: auto;
+   height: 9.6rem;
    
-  
 }
 
 .title-anchor {
