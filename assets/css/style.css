@@ -28,11 +28,11 @@ h1 {
     margin-bottom: 3.2rem;
 }
 
-h2 {
+/* h2 {
     font-size: 1.8rem;
     border-radius: 50rem;
     background-color: #E76F51;
-}
+} */
 
 
  /* hero image */
@@ -150,39 +150,38 @@ header {
 
 .info-section {
     
-    padding: 9.6rem 0;
+    /* padding: 9.6rem 0; */
     
-    background-color: #ffbd59;
+    /* background-color: #ffbd59; */
     
 }
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 9.6rem;
+    /* gap: 9.6rem; */
 }
 .info-section div div{
-    /* padding: 9.6rem; */
-    background-color: #ffbd59;
+    padding: 9.8rem;
+    /* background-color: #ffbd59; */
 }
 
-.container {
-    max-width: 120rem;
-    padding: 0 3.2rem; 
+hr {
+    border-top: 2px solid #47a81d;
+    width: 100%;
+    margin: 2px 0;
+}
+
+/* .container {
+    
+     padding: 0 3.2rem; 
     margin: 0 auto;
    
-}
+} */
 
 
-/* product list */
-
-.column {
-    float: left;
-    width: 25%;
-    padding: 5px;
-  }
-  
+ 
   /* Clear floats after image containers */
-  .row::after {
+  /* .row::after {
     content: "";
     clear: both;
     display: table;
@@ -205,7 +204,7 @@ header {
 .price {
     color: #264653;
     font-size: 22px;
-}
+} */
 
 
 
