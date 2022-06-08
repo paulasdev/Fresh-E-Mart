@@ -130,55 +130,37 @@ header {
 
 
 
-/* #text {
 
-    font-size: 130%;
-    color: #E76F51;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-
-    width: 800px;
-    height: 200px;
-
-    top: 180px;
-    left: 150px;
-
-    position: absolute;
-} */
-
-
-
-/* Info section */
-
-.info-section {
-
-    padding: 9.6rem 0;
-
-    /* background-color: #ffbd59; */
-
-}
-/* Info and products section */
+/* products section */
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     /* gap: 9.6rem; */
 }
-/* Footer */
-.grid--4--cols {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
 
+/* Feature */
+.feature {
+    padding: 6rem 9.6rem;
+}
+.feature-icon {
+    font-size: 3.2rem ;
+    margin-bottom: 3.2rem;
+    background-color: #E9C46A;
+    padding: 2rem;
+    border-radius: 50%;
+    margin-top: 3rem;
 }
 
-.info-section div div {
-    padding: 9.8rem;
-    /* background-color: #ffbd59; */
+.feature-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
 }
 
-hr {
-    border-top: 2px solid #47a81d;
-    width: 100%;
-    margin: 2px 0;
+.feature-text {
+    font-size: 1.4rem;
+    line-height: 1.8;
+
 }
 
 .container {
@@ -198,20 +180,22 @@ hr {
     margin: 2.0rem 0;
     font-size: 2.8rem;
 }
+
 .products-section {
 
     padding: 5rem 9.6rem;
-   
+
 }
 
 .product-list {
     border: 1px solid #ccc;
     border-radius: 4px;
-    
+
 
 }
+
 .product-list p {
-   
+
     font-size: 2.4rem;
     color: #f6660d;
     font-weight: 600;
@@ -235,15 +219,17 @@ hr {
     height: 200px;
     width: 100%;
 }
- .tag {
+
+.tag {
     position: relative;
     text-align: center;
     padding: 0.4rem 0.8rem;
-    color: #264653; 
+    color: #264653;
     font-size: 1.2rem;
     text-transform: uppercase;
-    
- }
+
+}
+
 .tag-discount {
 
     position: absolute;
@@ -307,7 +293,7 @@ hr {
     left: 10%;
 }
 
-/* Newsletter */
+/* Subscribe */
 .container {
     position: left;
     overflow: auto;
@@ -334,6 +320,10 @@ input[type=submit] {
     border-radius: 1rem;
 }
 
+.section-cta {
+    padding: 4.8rem 0 12.8rem 0;
+}
+
 /* input[type=submit]:hover {
     opacity: 0.8;
   } */
@@ -343,13 +333,14 @@ input[type=submit] {
 footer {
 
     background-color: #E9C46A;
-    padding: 9.6rem 0;
+    padding: 9rem 9.6rem;
 
 }
+
 .footer-logo {
     display: block;
     margin-bottom: 4rem;
-   
+
 
 }
 
@@ -359,6 +350,7 @@ footer {
     gap: 2.4rem;
     height: 2.4rem;
     width: 2.4rem;
+
 }
 
 .footer-heading {
@@ -381,8 +373,6 @@ footer {
     font-size: 1.6rem;
     color: #f6660d;
 }
-   
-
 
 .footer-link:hover,
 .footer-link:active {
@@ -393,18 +383,23 @@ footer {
     font-style: normal;
     font-size: 1.6rem;
     line-height: 1.6;
+
 }
 
 .contacts p {
     margin-bottom: 2.4rem;
 
+
 }
+
 .copyright {
     font-size: 1.4rem;
-    line-height: 1.6; 
+    line-height: 1.6;
     margin-top: 4rem;
     text-align: center;
 }
+
+
 /* Media queries */
 
 /*for screen sizes over 360px and under 540px wide*/
