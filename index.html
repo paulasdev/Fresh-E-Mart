@@ -316,21 +316,32 @@
 
                         <form class="cta-form"action="#thankyou.html" method=“GET”>
 
-
-                            <input type="text" placeholder="Your Name" name="name" required>
-                            <input type="email" placeholder="Email address" name="mail" required>
+                            <label for="full-name">Full Name</label>
+                            <input id="full-name" type="text" placeholder="John Smith" name="name" required>
+                           
+                            <label for="email">Email address</label>
+                            <input id="email" type="email" placeholder="me@example.com" name="email" required>
+                           
+                            <label for="select-time">How often do you buy with us?</label>
+                        <select name="times" id="select-time" placeholder="Select">
+                            <option value=" "> </option>
+                            <option value="First time">First time</option>
+                            <option value="1-2 times per week">1-2 times per week</option>
+                            <option value="3-4 times per week">3-4 times per week</option>
+                        </select>
+                            
                             <input type="submit" value="Sign up now">
+                           
+                            <label>
+                                <input type="checkbox" checked="checked" name="subscribe"> Weekly Newsletter
+                            </label>    
                             </div>
-
-                          
-
-                                <label>
-                                    <input type="checkbox" checked="checked" name="subscribe"> Weekly Newsletter
-                                </label>
-                            </div>
+                            
                         </form>
+                        <div class="cta-img" role="image" aria-label="Women holding fruits and vegetables">
+                        </div>
                     </div>
-                    <div class="cta-img" role="image" arial-label="Women holding fruits and vegetables"></div>
+                       
                 </div>
             </div>
 
