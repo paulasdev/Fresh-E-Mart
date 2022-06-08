@@ -80,9 +80,11 @@ h1 {
 
 .hero-image {
 
-    height: auto;
-    width: 100%;
-    background: url('../images/hero-image.png') no-repeat center center;
+    /* height: auto;
+    width: 100%; */
+    background-image: url('../images/hero-image.png');
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -250,6 +252,32 @@ header {
 
 /* subscribe */
 
+.signup {
+    /* padding: 4.8rem 0 12.8rem 0; */
+    padding: 0.8rem 9.8rem;
+}
+
+.cta {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: #fbb386;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+    border-radius: 11px;
+    background-image: linear-gradient(90deg, yellow, #fbb386);
+    overflow: hidden;
+    height: 50rem;
+}
+
+.cta-text {
+
+}
+
+.cta-img {
+    background-image: url('../images/cta.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+}
 .form h2 {
     padding-top: 30px;
 }
@@ -319,9 +347,7 @@ input[type=submit] {
     border-radius: 1rem;
 }
 
-.section-cta {
-    padding: 4.8rem 0 12.8rem 0;
-}
+
 
 /* input[type=submit]:hover {
     opacity: 0.8;
