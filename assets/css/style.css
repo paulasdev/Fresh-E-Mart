@@ -60,6 +60,16 @@ h1 {
     line-height: 1.6;
     margin-bottom: 4.8rem;
 }
+/* button - subscribe section */
+
+.btn--form {
+    background-color: #f6660d;
+    color: #fff;
+    border-radius: 9px;
+    align-self: end;
+    padding: 1.6rem;
+    font-family: inherit;
+}
 
 .btn:link,
 .btn:visited {
@@ -70,6 +80,9 @@ h1 {
     font-size: 2rem;
     padding: 1.6rem 3.2rem;
     border-radius: 42px;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
 }
 
 .btn:hover,
@@ -265,21 +278,24 @@ header {
     border-radius: 11px;
     background-image: linear-gradient(90deg, yellow, #fbb386);
     overflow: hidden;
-    height: 50rem;
+    /* height: 50rem; */
 }
 
 .cta-text {
     padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+    margin-bottom: 4.8rem;
 
 }
 
 div h2 {
-    margin-bottom: 3.2rem;
+    margin-bottom: 2.4rem;
+    font-size: 2rem;
 }
 
 div p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 1.8;
+    margin-bottom: 3.2rem;
 }
 .cta-img {
     background-image: url('../images/cta.jpg');
@@ -288,52 +304,48 @@ div p {
     opacity: 0.7;
 }
 
-/* submit button */
+.cta-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3.2rem;
+    row-gap: 2.4rem;
 
-.submit {
-    color: #2A9D8F;
-    padding: 10px 15px;
-    margin: 40px 0;
-    width: 120px;
-    border-radius: 5px;
-    background-color: #E76F51;
-    text-transform: uppercase;
-    left: 10%;
 }
 
-/* Subscribe */
-.container {
-    position: left;
-    overflow: auto;
+.cta-form label{
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
 }
 
-input[type=text],
-imput[type=email],
-input[type=submit] {
+.cta-form input,
+.cta-form select {
     width: 100%;
-    padding: 12px;
-    margin: 8px 0;
-    display: inline-block;
-    border-radius: 1rem;
-    border: 1px solid #ccc;
-
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    color: inherit;
+    border: none;
+    background-color: #fdf2e9;
+    border-radius: 9px;
+    box-shadow:  0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-input[type=checkbox] {
-    margin-top: 16px;
-}
-
-input[type=submit] {
-    background-color: #2A9D8F;
-    color: white;
-    border-radius: 1rem;
+.cta-form input::placeholder {
+   color: #aaa; 
 }
 
 
+/* .checkbox {
+    padding: 1.2rem;
+    font-size: 1.8rem; 
+    font-family: inherit;
+    color: inherit;
+    border: none;
+    
+} */
 
-/* input[type=submit]:hover {
-    opacity: 0.8;
-  } */
 
 
 /* footer */
