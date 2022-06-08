@@ -139,9 +139,7 @@ header {
 }
 
 /* Feature */
-.feature {
-    padding: 6rem 9.6rem;
-}
+
 .feature-icon {
     font-size: 3.2rem ;
     margin-bottom: 3.2rem;
@@ -190,6 +188,8 @@ header {
 .product-list {
     border: 1px solid #ccc;
     border-radius: 4px;
+    position: relative;
+    overflow: hidden;
 
 
 }
@@ -221,30 +221,29 @@ header {
 }
 
 .tag {
-    position: relative;
-    text-align: center;
-    padding: 0.4rem 0.8rem;
-    color: #264653;
+    position: absolute;
+    top: 6%;
+    right: -20%;
+    color: #fff;
     font-size: 1.2rem;
+    font-weight: 700;
     text-transform: uppercase;
+    transform: rotate(45deg);
 
 }
 
 .tag-discount {
 
-    position: absolute;
-    top: 0.8rem;
-    right: 1.6rem;
     background-color: #47a81d;
-    border-radius: 100px;
+    padding: 0.8rem 9.8rem;
+  
 }
 
 .tag-new {
-    position: absolute;
-    top: 0.8rem;
-    right: 1.6rem;
     background-color: #f6660d;
-    border-radius: 100px;
+    padding: 0.8rem 9.8rem;
+    
+   
 
 }
 
