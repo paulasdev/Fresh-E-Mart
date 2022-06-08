@@ -29,10 +29,13 @@
                     <a href="#">About</a>
                 </li>
                 <li>
-                    <a href="shop.html">Products</a>
+                    <a href="#">Products</a>
                 </li>
                 <li>
-                    <a href="signup.html">Contact</a>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">Sign in</a>
                 </li>
             </ul>
         </nav>
@@ -302,51 +305,77 @@
 
         </section>
 
+        <section class="signup">
+            <form action="#thankyou.html" method=“GET”>
+                <div class="container">
+                    <h2>Newsletter</h2>
+                    <p>Sign up for newsletter to receive special offers and exclusive news.</p>
+                </div>
+
+                <div class="container">
+                    <input type="text" placeholder="Email address" name="mail" required>
+                    <input type="submit" value="Subscribe">
+                </div>
+
+                <div class="container">
+
+                    <label>
+                        <input type="checkbox" checked="checked" name="subscribe"> Weekly Newsletter
+                    </label>
+                </div>
+            </form>
+
+        </section>
+
 
         <footer>
             <div class="container grid grid--4--cols">
-            <div class="logo">
-                <a href="index.html" class="title-anchor" aria-label="back to homepage">
-                    <img src="assets/images/logo.png" alt="fresh-e-mart - logo">
-                </a>
-            </div>
-           
-                <form action="#thankyou.html" method=“GET”>
-                    <div class="container">
-                        <h2>Newsletter</h2>
-                        <p>Sign up for newsletter to receive special offers and exclusive news.</p>
-                    </div>
 
-                    <div class="container">
-                        <input type="text" placeholder="Email address" name="mail" required>
-                        <input type="submit" value="Subscribe">
-                    </div>
+                <div class="logo">
+                    <a href="index.html" class="footer-logo">
+                        <img src="assets/images/logo.png" alt="fresh-e-mart - logo">
+                    </a>
+                    <ul class="social-links">
+                        <li><a class="footer-link" href="https://www.instagram.com/" target="_blank"><i
+                                    class="fab fa-instagram"></i></a></li>
+                        <li><a class="footer-link" href="https://www.facebook.com/" target="_blank"><i
+                                    class="fab fa-facebook"></i></a></li>
+                        <li><a class="footer-link" href="https://www.linkedin.com/" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
 
-                    <div class="container">
-
-                        <label>
-                            <input type="checkbox" checked="checked" name="subscribe"> Weekly Newsletter
-                        </label>
-                    </div>
-                </form>
 
                 <div class="address-col">
                     <p class="footer-heading">Contact Us</p>
                     <address class="contacts">
-                        <p>Address: 23 Main St., Carrick-on-Shannon, Ireland</p> 
-                        <p> <a href="tel:333-453-234">Phone: 333-453-234</a><br>
-                        <a href="mailto: hello@freshemart.com">Email: hello@freshemart.com</a></p> 
+                        <p>Address: 23 Main St., Carrick-on-Shannon, Ireland</p>
+                        <p> <a class="footer-link" href="tel:333-453-234">Phone: 333-453-234</a><br>
+                            <a class="footer-link" href="mailto: hello@freshemart.com">Email: hello@freshemart.com</a></p>
                     </address>
                 </div>
-                <div class="nav-footer">
-                    navbar
+
+                <div class="footer-nav">
+                    <p class="footer-heading">Company</p>
+                    <li><a class="footer-link" href="#">About</a></li>
+                    <li><a class="footer-link" href="#">Products</a></li>
+                    <li><a class="footer-link" href="#">Privacy & terms</a></li>
+
                 </div>
-                <div>
-                    <p>Copyright &copy; 2022 by Fresh-E-Mart. All Rights Reserved.</p>
+
+                <div class="footer-nav">
+                    <p class="footer-heading">Contact</p>
+                    <li><a class="footer-link" href="#">Contact</a></li>
+                    <li><a class="footer-link" href="#">Sign in</a></li>
                 </div>
+
+             
             </div>
-            </footer>
-       
+            <div class="copyright">
+                <p>Copyright &copy; 2022 by Fresh-E-Mart. All Rights Reserved.</p>
+            </div>
+        </footer>
+
         <!-- font awesome script -->
         <script src="https://kit.fontawesome.com/7401c7cc54.js" crossorigin="anonymous"></script>
 
