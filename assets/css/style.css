@@ -28,6 +28,12 @@ h1 {
     margin-bottom: 3.2rem;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* gap: 9.6rem; */
+}
+
 /* h2 {
     font-size: 1.8rem;
     border-radius: 50rem;
@@ -93,9 +99,9 @@ h1 {
 
 .hero-image {
 
-    /* height: auto;
-    width: 100%; */
-    background-image: url('../images/hero-image.png');
+    height: auto;
+    width: 100%;
+    background-image: url('../images/hero-img.png');
     background-size: cover;
     background-position: center;
 }
@@ -146,12 +152,7 @@ header {
 
 
 
-/* products section */
-.grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    /* gap: 9.6rem; */
-}
+
 
 /* Feature */
 
@@ -161,7 +162,8 @@ header {
     background-color: #E9C46A;
     padding: 2rem;
     border-radius: 50%;
-    margin-top: 3rem;
+    margin: 3rem;
+    
 }
 
 .feature-title {
@@ -179,14 +181,26 @@ header {
 .container {
 
     padding: 0 9.6rem;
-    margin: 0 auto;
-    column-gap: 2.0rem;
-    row-gap: 40px;
+    margin: 3.2rem 3.2rem;
+    column-gap: 3.2rem;
+    row-gap: 4.0rem;
 
 }
-
+/* About section */
+.about {
+    text-align: center;
+    margin: 2.0rem 0;
+    font-size: 2.8rem;
+}
+.about-img {
+    /* background-image: url('../images/about.png'); */
+    /* background-size: cover; */
+    /* background-position: center;  */
+   
+}
 
 /* product section */
+
 
 .products {
     text-align: center;
@@ -352,7 +366,7 @@ div p {
 footer {
 
     background-color: #E9C46A;
-    padding: 9rem 9.6rem;
+    padding: 3.2rem;
 
 }
 
