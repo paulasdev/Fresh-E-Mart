@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Ubuntu:wght@300&display=swap');
 
-/* color 
 
-font-color: 0d2913
-background: #aad0b2
-nav: hoover: 2b8a3e
-btn: 2b8a3e;
+
 
 
 */
@@ -39,21 +35,16 @@ h1 {
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* gap: 9.6rem; */
+   
 }
 
-/* h2 {
-    font-size: 1.8rem;
-    border-radius: 50rem;
-    background-color: #E76F51;
-} */
 
 
 /* hero image */
 .section-hero {
 
     background-color: #aad0b2;
-   
+
     padding: 4.8rem 4.8rem 0 4.8rem
 }
 
@@ -287,8 +278,8 @@ header {
 
 .tag {
     position: absolute;
-    top: 6%;
-    right: -20%;
+    top: 5%;
+    right: -30%;
     color: #fff;
     font-size: 1.2rem;
     font-weight: 700;
@@ -304,13 +295,6 @@ header {
   
 }
 
-.tag-new {
-    background-color: #f6660d;
-    padding: 0.8rem 9.8rem;
-    
-   
-
-}
 
 
 /* subscribe */
@@ -377,24 +361,24 @@ div p {
     font-family: inherit;
     color: inherit;
     border: none;
-    background-color: #fdf2e9;
+    background-color: #aad0b2;
     border-radius: 9px;
-    box-shadow:  0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow:  0 1px 2pitx rgba(0, 0, 0, 0.1);
 }
 
 .cta-form input::placeholder {
-   color: #aaa; 
+   color: #0d2913; 
 }
 
 
-/* .checkbox {
+.checkbox {
     padding: 1.2rem;
     font-size: 1.8rem; 
     font-family: inherit;
     color: inherit;
     border: none;
     
-} */
+}
 
 
 
@@ -440,12 +424,12 @@ footer {
 .footer-link:visited {
     text-decoration: none;
     font-size: 1.6rem;
-    color: #f6660d;
+    color: #0d2913;
 }
 
 .footer-link:hover,
 .footer-link:active {
-    border-bottom: 0.2rem solid #ffbd59;
+    border-bottom: 0.2rem solid #2b8a3e;
 }
 
 .contacts {
@@ -475,9 +459,15 @@ footer {
 /* 1344px (smaller desktops */
 
 
-@media (max-width: 84em) {
+/* @media (max-width: 84em) {
     .hero {
         max-width: 120rem;
     }
 
-}
+} */
+
+/* @media only screen and (min-width: 768px) {
+    .grid{
+        width: 100%;
+    }
+} */
