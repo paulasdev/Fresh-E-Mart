@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Ubuntu:wght@300&display=swap');
 
+/* color 
 
+font-color: 0d2913
+background: #aad0b2
+nav: hoover: 2b8a3e
+btn: 2b8a3e;
+
+
+*/
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +23,7 @@ html {
 body {
     font-family: 'Roboto Mono', monospace;
     font-weight: 300;
-    color: #47a81d;
+    color: #113719;
 
 }
 
@@ -23,7 +31,7 @@ h1 {
     font-size: 5.2rem;
     font-weight: 700;
     line-height: 1.05;
-    color: #264653;
+    color: #113719;
     letter-spacing: 1px;
     margin-bottom: 3.2rem;
 }
@@ -44,19 +52,27 @@ h1 {
 /* hero image */
 .section-hero {
 
-    background-color: #fbb386;
-    padding: 4.8rem 0 9.6rem 0;
+    background-color: #aad0b2;
+   
+    padding: 4.8rem 4.8rem 0 4.8rem
 }
 
 .hero {
 
+    display: grid;
     max-width: 130rem;
     margin: 0 auto;
-    padding: 0 3.2rem;
-    display: grid;
+    padding: 0 9.6rem;
+    
     grid-template-columns: 1fr 1fr;
+    
     gap: 9.6rem;
-    /* align-items: center; */
+    
+    
+}
+.hero-text-box {
+    margin-top: 15rem;
+    justify-content: center;
 }
 
 
@@ -64,12 +80,26 @@ h1 {
 .hero-description {
     font-size: 2rem;
     line-height: 1.6;
-    margin-bottom: 4.8rem;
+    margin-bottom: 4.8rem; 
 }
+
+
+.hero-image {
+
+    height: 60rem;
+    width: 100%;
+    background: url("../images/hero.webp") no-repeat center center;
+    margin-bottom: 0;
+   
+
+    
+}
+
+
 /* button - subscribe section */
 
 .btn--form {
-    background-color: #f6660d;
+    background-color: #2b8a3e;
     color: #fff;
     border-radius: 9px;
     align-self: end;
@@ -80,7 +110,7 @@ h1 {
 .btn:link,
 .btn:visited {
     display: inline-block;
-    background-color: #f6660d;
+    background-color: #2b8a3e;
     color: #fff;
     text-decoration: none;
     font-size: 2rem;
@@ -97,14 +127,6 @@ h1 {
     background-color: #7b3307;
 }
 
-.hero-image {
-
-    height: auto;
-    width: 100%;
-    background-image: url('../images/hero-img.png');
-    background-size: cover;
-    background-position: center;
-}
 
 
 /* logo and nav */
@@ -136,7 +158,7 @@ header {
     display: flex;
     font-size: 1.8rem;
     gap: 3.2rem;
-    color: #f6660d;
+    color: #2b8a3e;
 }
 
 
@@ -146,7 +168,7 @@ header {
 }
 
 #main-nav-list a:hover {
-    border-bottom: 0.2rem solid #ffbd59;
+    border-bottom: 0.2rem solid #2b8a3e;
 }
 
 
@@ -159,7 +181,7 @@ header {
 .feature-icon {
     font-size: 3.2rem ;
     margin-bottom: 3.2rem;
-    background-color: #E9C46A;
+    background-color: #277c38;
     padding: 2rem;
     border-radius: 50%;
     margin: 3rem;
@@ -290,7 +312,7 @@ header {
     background-color: #fbb386;
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
     border-radius: 11px;
-    background-image: linear-gradient(90deg, yellow, #fbb386);
+    background-image: linear-gradient(90deg, #55a165, #d5e8d8);
     overflow: hidden;
     /* height: 50rem; */
 }
@@ -365,7 +387,7 @@ div p {
 /* footer */
 footer {
 
-    background-color: #E9C46A;
+    background-color: #aad0b2;
     padding: 3.2rem;
 
 }
