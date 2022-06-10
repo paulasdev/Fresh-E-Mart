@@ -31,7 +31,7 @@ h1 {
     text-transform: uppercase;
     font-size: 5.2rem;
     font-weight: 700;
-    line-height: 1.05;
+  
     color: #113719;
     letter-spacing: 4px;
     margin-bottom: 3.2rem;
@@ -52,8 +52,8 @@ header {
 
 .logo {
     float: left;
-    padding-top: 1.2rem;
-    height: 9.6rem;
+    /* padding-top: 1.2rem;
+    height: 9.6rem; */
 
 }
 
@@ -62,25 +62,31 @@ header {
 
 }
 
-#main-nav-list {
-    list-style: none;
-    display: flex;
-    font-size: 1.8rem;
-    gap: 3.2rem;
-    color: #2b8a3e;
+/* navigation links */
+.main-nav, .logo {
+    line-height: 10px;
+
 }
 
+.main-nav {
+    display: flex;
+    list-style-type: none;
+    margin: 30px;
+    font-size: 1.8rem;
+    gap: 3.2rem;
+   
+}
 
-#main-nav-list a {
+ .main-nav a {
     text-decoration: none;
     color: inherit;
 }
 
-#main-nav-list a:hover {
+.main-nav a:hover {
     border-bottom: 0.2rem solid #2b8a3e;
 }
 
-
+ 
 
 
 
