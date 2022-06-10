@@ -96,4 +96,5 @@ Just choose your products, and we will contact you to deliver them in the comfor
 ## **Imagery**
 
 ## **Wireframes**
-      
+      logo creator: https://logo.e.jimdo.com/
+      color: https://maketintsandshades.com/
