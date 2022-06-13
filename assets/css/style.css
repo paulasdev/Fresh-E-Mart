@@ -13,6 +13,7 @@ h1 - #113719 - 'Ubuntu', sans-serif
     padding: 0;
     border: none;
     box-sizing: border-box;
+    align-items: center;
 }
 
 html {
@@ -46,21 +47,16 @@ h2 {
 
 /* headings and logo */
 
-header {
+
+.flex-container {
     display: flex;
-    flex-flow: row wrap;
     justify-content: space-between;
-    /* align-items: center;  */
-    /* height: 9.6rem;
-    padding: 0 4.8rem; */
-    /* padding: 2rem; */
-    flex: 1 100%;
+    align-items: center;
+    background-color: yellow;
 
 }
-
 .logo {
-    float: left;
-    margin: 2.6rem
+  margin: 0 0 0 .45em;
 }
 
 .title-anchor {
@@ -70,27 +66,23 @@ header {
 
 /* navigation links */
 .main-nav, .logo {
-    line-height: 10px;
+   list-style: none;
+   text-transform: uppercase;
 
 }
 
 .main-nav {
     display: flex;
-    /* float: right; */
+}
     
 
-    list-style-type: none;
-    margin: 2.6rem;
-    font-size: 1.8rem;
-    gap: 3.2rem;
-   
-}
 
  .main-nav a {
+     display: block;
     text-decoration: none;
-    display: block;
-    padding: 1em;
+    letter-spacing: .45rem;
     color: #113719;
+    padding: 1em;
 }
 
 .main-nav a:hover {
@@ -582,18 +574,41 @@ footer {
     }
   } */
   
-  /* nav */
-  @media all and (max-width: 600px) {
-    .main-nav {
-      flex-flow: column wrap;
-      padding: 0;
+  @media all and (max-width: 990px) {
+    .flex-container {
+      flex-direction: column;
     }
+    
+    .logo {
+    margin: 0;
+  }
+    
+    .navigation  {
+      width: 100%;
+      justify-content: space-around;
+    }
+  }
+  
+  
+  /* ****** ****** */
+  @media all and (max-width: 600px) {
+   
+    .logo {
+      margin: .25em 0;
+      align-self: left; /* align the logo to the left side of 'flex-container' */
+  }
+    
+    .main-nav {
+      flex-direction: column;
+    }
+    
     .main-nav a { 
       text-align: center; 
       padding: 10px;
-      border-top: 1px solid rgba(255, 255, 255,0.3); 
-      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+      border-top: 1px solid rgba(255,255,255,0.3); 
+      border-bottom: 1px solid rgba(0,0,0,0.1); 
     }
+    
     .main-nav li:last-of-type a {
       border-bottom: none;
     }
