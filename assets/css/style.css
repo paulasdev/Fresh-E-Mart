@@ -365,16 +365,31 @@ option {
 } 
 
 /* footer */
-footer {
 
-    background-color: #e7ebe8;
-    padding: 3.2rem;
 
+.footer-nav {
+    float: left;
+    width: 25%;
+    padding: 10px;
+background-color: pink;
+  }
+
+.footer {margin: 3.2rem 9.6rem}
+
+
+.footer:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
+
+
+
 .footer-logo {
-    display: block;
-    padding: 3.2rem;
+    /* display: block;
+    padding: 3.2rem; */
+    width: 50%;
 
 
 }
@@ -433,7 +448,7 @@ footer {
     margin-bottom: 2.4rem;
 
 
-}
+} */
 
 .copyright {
     background-color: #aad0b2;
