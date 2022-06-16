@@ -29,12 +29,9 @@ body {
 
 h1 {
     font-family: 'Ubuntu', sans-serif;
-    /* text-transform: uppercase;
-    font-size: 5.2rem; */
     line-height: 1.3;
     color: #113719;
-    /* letter-spacing: 4px;
-    margin-bottom: 3.2rem; */
+  
 }
 
 h2 {
@@ -42,7 +39,6 @@ h2 {
     text-transform: uppercase;
     color: #113719;
     text-align: center;
-
     font-size: 2.8rem;
 }
 
@@ -126,6 +122,7 @@ h2 {
 
 
 .hero-section p {
+    font-size: 2.6rem;
     margin: 1rem 0;
 
 }
@@ -193,7 +190,6 @@ img {
 .features {margin: 3.2rem 9.6rem}
 
 
-
 .features:after {
     content: "";
     display: table;
@@ -221,24 +217,17 @@ img {
     line-height: 1.8;
 
 }
-/* 
+
 
 
 /* About section */
 .about {
     text-align: center;
-    
     font-size: 2.8rem;
-    padding: 10px;
+    padding: 0 9.6rem;
     margin: 3.2rem 9.6rem;
 }
 
-.about-img {
-    /* background-image: url('../images/about.png'); */
-    /* background-size: cover; */
-    /* background-position: center;  */
-
-}
 
 /* Products list */
 
@@ -286,48 +275,50 @@ img {
 
 /* CTA section */
 
-
 .section-cta {
-    padding: 9.6rem 0;
+    padding: 3.2rem 0;
 }
 
-.newsletter {
+.container {
     max-width: 120rem;
     padding: 0 3.2rem;
     margin: 0 auto;
+}
 
+.newsletter {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
     border-radius: 11px;
     background-image: linear-gradient(90deg, #55a165, #d5e8d8); 
-
     overflow: hidden;
 }
 
-
+.cta-text-box {
+    padding: 0 6.4rem;
+    color: #113719;
+}
 .cta-text-box h2 {
     padding: 4.8rem 6.4rem 6.4rem 6.4rem;
-    margin-bottom: 4.8rem;
+    margin-bottom: 3.2rem;
 
 }
 
 
 .cta-text-box p {
-    font-size: 2.6rem;
+    font-size: 1.6rem;
     line-height: 1.8;
     margin-bottom: 3.2rem;
     color: #113719;
 }
 
 .cta-img-box {
-    background-image: url("../images/cta.jpg");
     background-size: cover;
     background-position: center;
     opacity: 0.7;
 }
 
-/* .cta-form {
+ .cta-form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 3.2rem;
@@ -360,9 +351,8 @@ img {
 }
 
 
-.checkbox {
-    padding: 1.2rem;
-    font-size: 1.8rem;
+.checkbox { 
+    padding: 20px;
     font-family: inherit;
     color: inherit;
     border: none;
@@ -372,7 +362,7 @@ img {
 option {
     color: #415f47;
 
-} */
+} 
 
 /* footer */
 footer {
@@ -525,4 +515,15 @@ footer {
     display: block;
     margin-bottom: 20px;
   }
+
+  .cta-text-box {
+      padding: 3.2rem;
+  }
+  .newsletter {
+    
+      grid-template-columns: 1fr;
+  }
+
 }
+
+
