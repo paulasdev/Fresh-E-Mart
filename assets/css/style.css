@@ -12,7 +12,6 @@
 
 main {
     display: block;
-    margin-top: 12.5rem;
 }
 html {
     font-size: 62.5%;
@@ -46,10 +45,9 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 9999999999;
+    z-index: 99999;
     background-color: #fff;
 }
-
 /* nav and logo */
 
 
@@ -61,7 +59,8 @@ header {
 }
 
 .logo {
-    margin: 0 0 0 .45em;
+    /* margin: 0 0 0 .45em; */
+    margin: 0 3rem;
 }
 
 .title-anchor {
@@ -84,9 +83,7 @@ header {
 
 
 
-
 .main-nav a {
-
     font-size: 1.8rem;
     display: block;
     text-decoration: none;
@@ -438,10 +435,7 @@ option {
 
   }
 
-.footer {
-    margin: 3.2rem 9.6rem;
-    width: 100%;
-}
+.footer {margin: 3.2rem 9.6rem}
 
 
 .footer:after {
@@ -603,5 +597,3 @@ option {
   }
 
 }
-
-
