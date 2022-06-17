@@ -13,6 +13,7 @@
 main {
     display: block;
 }
+
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -30,6 +31,7 @@ h1 {
     font-family: 'Ubuntu', sans-serif;
     line-height: 1.3;
     color: #113719;
+    padding: 2rem 0;
   
 }
 
@@ -39,6 +41,7 @@ h2 {
     color: #113719;
     text-align: center;
     font-size: 2.8rem;
+   padding: 2rem 0;
 }
 
 header {
@@ -59,7 +62,6 @@ header {
 }
 
 .logo {
-    /* margin: 0 0 0 .45em; */
     margin: 0 3rem;
 }
 
@@ -78,6 +80,7 @@ header {
 
 .main-nav {
     display: flex;
+    font-weight: 900;
    
 }
 
@@ -100,7 +103,7 @@ header {
 /* hero section */
 
 .hero-section {
-    margin: 2rem 0;
+
     background-color: #aad0b2;
 }
 
@@ -193,11 +196,13 @@ img {
 .feature {
     float: left;
     width: 25%;
-    padding: 10px;
+    padding: 2rem 9.6rem;
+  
   }
 
 .features {
-    margin: 3.2rem 9.6rem;
+    /* margin: 3.2rem 9.6rem; */
+    background-color: #f1f1f1;
 }
 
 
@@ -209,7 +214,7 @@ img {
 
 
 .feature i {
-    font-size: 3.2rem;
+    font-size: 2.6rem;
     margin-bottom: 2.6rem;
     background-color: #277c38;
     padding: 2rem;
@@ -219,14 +224,15 @@ img {
 }
 
 .feature-title {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
+    font-weight: 300;
 }
 
 
 .feature-text {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     line-height: 1.8;
-
+  
 }
 
 
@@ -238,9 +244,12 @@ img {
     margin: 3.2rem 9.6rem;
 }
 
+.about i {
+    font-size: 4.2rem;
+}
 
 .about p {
-    font: 2.6rem;
+    font-size: 1.8rem;
 
 }
 
@@ -565,7 +574,8 @@ option {
 .hero-section .hero {
     grid-template-columns: 1fr;
     text-align: center;
-    margin: .25em 0;
+    gap: 3rem;
+    justify-content: center;
     align-self: left;
   }
 
@@ -573,13 +583,19 @@ option {
 
   .hero-section h1 {
     font-size: 3.2rem;
-    margin-top: 60px;
+    margin-top: 210px;
   }
 
   .hero-section img {
     width: 80%;
     margin: auto;
   }
+
+  /* /* .about {
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+  } */
 
   .product-list, 
   .feature {
