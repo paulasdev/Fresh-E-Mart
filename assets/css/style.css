@@ -100,6 +100,14 @@ header {
 .main-nav a:hover {
     border-bottom: 0.2rem solid #2b8a3e;
 }
+/* mobile nav */
+.btn-mobile-nav {
+    border: none;
+  
+    font-size: 3.2rem;
+
+}
+
 
 
 /* hero section */
@@ -400,6 +408,7 @@ button {
     background-color: #2b8a3e;
     border-radius: 9px;
     box-shadow: 0 1px 2pitx rgba(0, 0, 0, 0.1);
+    margin-top: 3.2rem;
 
 }
 
@@ -417,7 +426,10 @@ button:active {
     background-image: linear-gradient(90deg, #55a165, #d5e8d8);
     margin: auto;
     width: 50%;
-    padding: 10px;
+    padding: 1em;
+
+  
+
 
 }
 
@@ -616,7 +628,8 @@ footer {
         padding: 3.2rem;
     }
 
-    .newsletter {
+    .newsletter,
+    .cta-form {
 
         grid-template-columns: 1fr;
     }
