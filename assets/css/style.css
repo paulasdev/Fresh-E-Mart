@@ -12,6 +12,7 @@
 
 main {
     display: block;
+    margin-top: 12.5rem;
 }
 html {
     font-size: 62.5%;
@@ -39,6 +40,14 @@ h2 {
     color: #113719;
     text-align: center;
     font-size: 2.8rem;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999999999;
+    background-color: #fff;
 }
 
 /* nav and logo */
@@ -75,7 +84,9 @@ h2 {
 
 
 
+
 .main-nav a {
+
     font-size: 1.8rem;
     display: block;
     text-decoration: none;
@@ -427,7 +438,10 @@ option {
 
   }
 
-.footer {margin: 3.2rem 9.6rem}
+.footer {
+    margin: 3.2rem 9.6rem;
+    width: 100%;
+}
 
 
 .footer:after {
