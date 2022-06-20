@@ -51,9 +51,9 @@ This site has been created as part of my Portfolio Project 1 for Code Institute.
 # **UX Development**
 ## **PROJECT GOAL**
 
-Fruit marketing is a website with the best and variable selection of organic fruits and vegetables to better serve our consumers.
+Fresh-E-Mart is a website with the best and variable selection of organic fruits and vegetables to better serve our consumers.
 
-Intended for those people who have little time to go to the market, for those who do not have a car or prefer the convenience of receiving their products at home.
+Intended for those people who want to consume fresh and organic vegetables with quality and great prices all year round.
 
 Just choose your products, and we will contact you to deliver them in the comfort of your home.
 
