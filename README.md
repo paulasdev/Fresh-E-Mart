@@ -1,9 +1,15 @@
 # **Fresh Mart**
-Your online market for organic fruits and vegetables.
-This site has been created as part of my Portfolio Project 1 for Code Institute.
+## **PROJECT GOAL**
 
+Fresh-E-Mart is a website with the best and variable selection of organic fruits and vegetables to better serve our consumers.
 
-[View deployed site](https://freshmart)
+Intended for those people who want to consume fresh and organic vegetables with quality and great prices all year round.
+
+Just choose your products, and we will contact you to deliver them in the comfort of your home.
+
+![responsive](./documentation/responsive.png)
+
+[View deployed site](https://paulasdev.github.io/Fresh-E-Mart/)
 
 - - -
 
@@ -49,13 +55,6 @@ This site has been created as part of my Portfolio Project 1 for Code Institute.
 - - -
 
 # **UX Development**
-## **PROJECT GOAL**
-
-Fresh-E-Mart is a website with the best and variable selection of organic fruits and vegetables to better serve our consumers.
-
-Intended for those people who want to consume fresh and organic vegetables with quality and great prices all year round.
-
-Just choose your products, and we will contact you to deliver them in the comfort of your home.
 
 ## **USER STORIES**
 
