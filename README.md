@@ -59,26 +59,25 @@ Just choose your products, and we will contact you to deliver them in the comfor
 ## **USER STORIES**
 
 ### **New User**
-* I want to know more about the site.
-* I want to know more about the fruits and vegetables available and how to buy them.
-* I want to know about the offers of the week
 * I want to easily navigate the site and find the relevant information easily.
+* I want to know more about the fruits and vegetables available and prices.
 * I want to subscribe to receive updates.
-* I wish to be able to contact the company for any additional questions I may have regarding the information presented.
+* I want to know the address and contact number
 * I want to interact with social media
 
 
 ### **Returning Users**
 * I want to know about the offers of the week
-* I want to be able to contact the company with any further questions and/or be able to provide feedback.
+* I want to be able to contact the company with any further questions.
+* I want to be able to subscribe to receive updates.
 
 
 ### **Admin User**
-* Let users find information about ofertas da semana
-* Let users access our social media.
-* That users can contact us giving feedback on the content.
-* Users can subscribe to the news.
-* That they always access updated news about the content.    
+* Update your product list with ease
+* Receive the correct information from subscribers
+* Send correct information to users.
+
+ 
        
 ### **Target Audience**
 * 
