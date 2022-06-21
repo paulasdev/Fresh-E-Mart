@@ -293,7 +293,7 @@
                         <p>Sign up for newsletter to receive special offers and exclusive news.</p>
 
 
-                        <form class="cta-form" action="thank-you.html" method=“GET”>
+                        <form class="cta-form" action="thankyou.html" method=“get” target="_blank">
 
                             <div>
                                 <label for="full-name">Full Name</label>
@@ -310,7 +310,7 @@
                             <div>
                                 <label for="select-time">How often do you buy with us?</label>
                                 <select name="times" id="select-time" required>
-                                    <option value=" ">Please choose one option:</option>
+                                    <option value="">Please choose one option:</option>
                                     <option value="First time">First time</option>
                                     <option value="1-2 times per week">1-2 times per week</option>
                                     <option value="3+ times per week">3 or more times per week</option>
@@ -358,8 +358,8 @@
                     <p class="footer-heading">Contact Us</p>
                     <address class="contacts">
                         <p>Address: 23 Main St., Leitrim Village, Ireland</p>
-                        <p> <a class="footer-link" href="tel:333-453-234" target="_blank">Phone: 333-453-234</a><br>
-                            <a class="footer-link" href="mailto: hello@freshemart.com" target="_blank">Email:
+                        <p> <a href="tel:333-453-234" target="_blank">Phone: 333-453-234</a><br>
+                            <a href="mailto:hello@freshemart.com" target="_blank">Email:
                                 hello@freshemart.com</a></p>
                     </address>
                 </div>
@@ -367,15 +367,18 @@
 
             <div class="footer-nav">
                 <p class="footer-heading">Company</p>
-                <li><a class="footer-link" href="#about">About</a></li>
-                <li><a class="footer-link" href="#products">Products</a></li>
-                <li><a class="footer-link" href="#fetures">Privacy & terms</a></li>
-
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#fetures">Privacy & terms</a></li>
+            </ul>
             </div>
 
             <div class="footer-nav">
                 <p class="footer-heading">Sign up</p>
-                <li><a class="footer-link" href="#signup" target="_blank">Newsletter</a></li>
+            <ul>
+                <li><a href="#signup">Newsletter</a></li>
+            </ul>
             </div>
 
 
