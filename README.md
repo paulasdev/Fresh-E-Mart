@@ -84,12 +84,43 @@ Just choose your products, and we will contact you to deliver them in the comfor
 
 # **DESIGN**
 ## **Colour Scheme**
-![Colour Pallete](./documentation/freshmart.png)
+
+### Languages Used
+
+HTML and CSS were used to create this website.
+
+### Frameworks, Libraries & Programs Used
+
+Balsamiq - Used to create wireframes.
+
+Git - For version control.
+
+Github - To save and store the files for the website.
+
+Google Fonts - To import the fonts used on the website.
+
+Font Awesome - For the iconography on the website.
+
+Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+## Deployment & Local Development
+
+
+
 
 ## **Typography**
-![Josefin Sans](./documentation/josefin_sans.png)
-![Work Sans](./documentation/work_sans.png)
 
+
+# **TESTING**
+## *HTML
+    ** No errors returned when passing through the official W3C validator
+## *CSS
+    ** No errors were found when passing trough the official(Jigsaw) validator
+## *Accessibility
+  
+    ** I confirmed that the colors and fonts chosen are easy to read and acessible by running it through lighthouse in devtools
+   
+    ![ligthouse](![](vscode-remote://paulasd  rev-freshemart-pq2flb6qa3u.ws-eu47.gitpod.io/workspace/Fresh-E-Mart/documentation/lighthouse.png))
 
 ## **Imagery**
 
