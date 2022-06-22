@@ -65,6 +65,10 @@ header {
 
 .logo {
     margin: 0 3rem;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+
 }
 
 .title-anchor {
@@ -553,7 +557,8 @@ footer {
     }
 
     .logo {
-        margin: 0;
+        width: auto;
+        margin: auto;
     }
 
     .main-nav {
@@ -611,7 +616,8 @@ footer {
 @media all and (max-width: 600px) {
 
     .logo {
-        margin: .25em 0;
+        width: auto;
+        margin: auto;
      
     }
 

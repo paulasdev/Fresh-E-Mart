@@ -1,11 +1,7 @@
 # **Fresh Mart**
-## **PROJECT GOAL**
 
-Fresh-E-Mart is a website with the best and variable selection of organic fruits and vegetables to better serve our consumers.
+Fresh-E-Mart is a website for a small business selling the best and variable selection of organic fruits and vegetables to better serve our consumers.
 
-Intended for those people who want to consume fresh and organic vegetables with quality and great prices all year round.
-
-Just choose your products, and we will contact you to deliver them in the comfort of your home.
 
 ![responsive](./documentation/responsive.png)
 
@@ -55,6 +51,9 @@ Just choose your products, and we will contact you to deliver them in the comfor
 - - -
 
 # **UX Development**
+Fresh-E-Mart website keeps our customers informed about the best prices and qualities of fruits and vegetables.
+Intended for those people who want to consume fresh and organic vegetables with quality and great prices all year round.
+
 
 ## **USER STORIES**
 
@@ -79,11 +78,23 @@ Just choose your products, and we will contact you to deliver them in the comfor
 
  
        
-### **Target Audience**
-* 
-
 # **DESIGN**
-## **Colour Scheme**
+**Colour Scheme**
+
+![colour_palete](./documentation/palettes.png)
+
+The colour palette was created using the [Coolors](https://coolors.co/7b3307-113719-2b8a3e-415f47-aad0b2) website.
+
+**Typography**
+
+Google Fonts was used for the following fonts:
+
+Ubuntu is used for headings on the site. It is a serif font.
+Roboto Mono is used for the body text on the site. It is a monospace font.
+
+**Imagery**
+The photos featured throughout the site were obtained from free image providers such as Vecteezy, Pexels, Pixibay.
+
 
 ### Languages Used
 
@@ -103,24 +114,23 @@ Font Awesome - For the iconography on the website.
 
 Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
-## Deployment & Local Development
+### Deployment & Local Development
 
-
-
-
-## **Typography**
 
 
 # **TESTING**
+
 ## *HTML
     ** No errors returned when passing through the official W3C validator
 ## *CSS
     ** No errors were found when passing trough the official(Jigsaw) validator
+
+
 ## *Accessibility
   
-    ** I confirmed that the colors and fonts chosen are easy to read and acessible by running it through lighthouse in devtools
+ I confirmed that the colors and fonts chosen are easy to read and acessible by running it through lighthouse in devtools
    
-    ![ligthouse](![](vscode-remote://paulasd  rev-freshemart-pq2flb6qa3u.ws-eu47.gitpod.io/workspace/Fresh-E-Mart/documentation/lighthouse.png))
+![lighthouse](documentation/lighthouse.png)
 
 ## **Imagery**
 
