@@ -54,12 +54,16 @@ This website aims to keep our customers informed about the best prices and quali
 
 - - -
 
-# **UX Development**
-Fresh-E-Mart website keeps our customers informed about the best prices and qualities of fruits and vegetables.
-Intended for those people who want to consume fresh and organic vegetables with quality and great prices all year round.
+# **Table of Contents**
+
+## **UX Development**
+ ### **Project Goal**
+Demonstrate my competence using HTML and CSS languages in building a responsive website.
+
+The website should promote the small fruit and vegetable shop to the local community
 
 
-## **USER STORIES**
+## **User Stories**
 
 ### **New User**
 * I want to easily navigate the site and find the relevant information easily.
@@ -80,14 +84,25 @@ Intended for those people who want to consume fresh and organic vegetables with 
 * Receive the correct information from subscribers
 * Send correct information to users.
 
- 
+## **Target Audience
+* Fruit and vegetable consumers.
        
 # **DESIGN**
 **Colour Scheme**
 
+The colour scheme was inspired by the hero image, with different shades of green and a brown tone for the CTA.
 ![colour_palete](./documentation/palettes.png)
 
-The colour palette was created using the [Coolors](https://coolors.co/7b3307-113719-2b8a3e-415f47-aad0b2) website.
+The colour palette was created using the [Coolors](https://coolors.co/7b3307-113719-2b8a3e-415f47-aad0b2) to generate some colour codes as inspiration for the site.
+
+**Site Structure**
+
+Fresh-E-Mart is a 4 sections and 2 pages website. The home page is the default loading page. the other sections are accessible from the navigation menu at all times.  
+
+**Wireframes**
+
+The Wireframes were produced using [Balsamiq](https://balsamiq.com/). 
+The final site varies from the wireframes due to developments that occurred during the building process. 
 
 **Typography**
 
@@ -102,21 +117,20 @@ The photos featured throughout the site were obtained from free image providers 
 
 ### Languages Used
 
-HTML and CSS were used to create this website.
+- HTML and CSS were used to create this website.
 
 ### Frameworks, Libraries & Programs Used
 
-Balsamiq - Used to create wireframes.
+- [Balsamiq](https://balsamiq.com/) - for wireframes
+- [Procreate](https://procreate.art/) - for manipulating images
+- [coolors.co](https://coolors.co/d3ab9e-eac9c1-ebd8d0-fffbff-fefeff) - the colour scheme was inspired by colours generated here 
+- [Font Awesome](https://fontawesome.com/) - multiple icons implemented throughout the site from font awesome version 5
+- [Google Fonts](https://fonts.google.com/) - Both fonts used in the website imported from here 
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - used extensively to experiment with grid, flexbox and general responsiveness. 
+- [Gitpod](https://www.gitpod.io/) - used to used to create and host the website
+- [Github](https://github.com/) - used to deploy the website 
+- [Am I responsive](https://ui.dev/amiresponsive) - to create an image displaying the home page on various devices 
 
-Git - For version control.
-
-Github - To save and store the files for the website.
-
-Google Fonts - To import the fonts used on the website.
-
-Font Awesome - For the iconography on the website.
-
-Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
 ### Deployment & Local Development
 
@@ -124,10 +138,8 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 # **TESTING**
 
-## *HTML
-    ** No errors returned when passing through the official W3C validator
-## *CSS
-    ** No errors were found when passing trough the official(Jigsaw) validator
+Please refer [**_here_**](TESTING.md) for more information on testing of the Fresh-E-Mart website. 
+
 
 
 ## *Accessibility
