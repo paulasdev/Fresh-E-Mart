@@ -1,11 +1,15 @@
 # **Fresh Mart**
 
-Fresh-E-Mart is a website for a small business selling the best and variable selection of organic fruits and vegetables to better serve our consumers.
+Fresh-E-Mart is a small shop that sells the best and most varied selection of fruits and organics to better serve our consumers.
+This website aims to keep our customers informed about the best prices and qualities of fruits and vegetables.
 
+![Responsive](./documentation/responsive.png)
 
-![responsive](./documentation/responsive.png)
+## Live Site
+[Fresh-E-Mart](https://paulasdev.github.io/Fresh-E-Mart/)
 
-[View deployed site](https://paulasdev.github.io/Fresh-E-Mart/)
+## Repository 
+[https://github.com/paulasdev/Fresh-E-Mar](https://github.com/paulasdev/Fresh-E-Mart)
 
 - - -
 
