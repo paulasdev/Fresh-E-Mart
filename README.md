@@ -34,10 +34,11 @@ This website aims to keep our customers informed about the best prices and quali
 2. [Features](#features)  
     * [EXISTING FEATURES](#existing-features)
         * [Navigation Bar](#navigation-bar)
-        * [Landing Page](#landing-page)
+        * [Header](#header)
+        * [Features Section](#features-section)
         * [About Section](#about-section)
-        * [Collection Section](#collection-section)
-        * [Contact Section](#contact-section)
+        * [Product Section](#collection-section)
+        * [Newsletter Section](#contact-section)
         * [Footer](#footer)
         
 3. [Technology Used](#technology-used)  
@@ -57,16 +58,16 @@ This website aims to keep our customers informed about the best prices and quali
 
 # **Table of Contents**
 
-## **UX Development**
- ### **Project Goal**
+## UX Development
+ ### Project Goal
 Demonstrate my competence using HTML and CSS languages in building a responsive website.
 
 The website should promote the small fruit and vegetable shop to the local community
 
 
-## **User Stories**
+## User Stories
 
-### **New User**
+### New User
 * I want to easily navigate the site and find the relevant information easily.
 * I want to know more about the fruits and vegetables available and prices.
 * I want to subscribe to receive updates.
@@ -74,43 +75,43 @@ The website should promote the small fruit and vegetable shop to the local commu
 * I want to interact with social media
 
 
-### **Returning Users**
+### Returning Users
 * I want to know about the offers of the week
 * I want to be able to contact the company with any further questions.
 * I want to be able to subscribe to receive updates.
 
 
-### **Admin User**
+### Admin User
 * Update your product list with ease
 * Receive the correct information from subscribers
 * Send correct information to users.
 
-## **Target Audience
+## Target Audience
 * Fruit and vegetable consumers.
        
-# **DESIGN**
-**Colour Scheme**
+# Design
+### Colour Scheme
 
 The colour scheme was inspired by the hero image, with different shades of green and a brown tone for the CTA.
 ![colour_palete](./documentation/palettes.png)
 
 The colour palette was created using the [Coolors](https://coolors.co/7b3307-113719-2b8a3e-415f47-aad0b2) to generate some colour codes as inspiration for the site.
 
-**Typography**
+### Typography
 
 Google Fonts was used for the following fonts:
 
 Ubuntu is used for headings on the site. It is a serif font.
 Roboto Mono is used for the body text on the site. It is a monospace font.
 
-**Imagery**
+### Imagery
 The photos featured throughout the site were obtained from free image providers such as Vecteezy, Pexels, Pixibay.
 
-**Site Structure**
+### Site Structure
 
 Fresh-E-Mart is a 4 sections and 2 pages website. The home page is the default loading page. the other sections are accessible from the navigation menu at all times.  
 
-**Wireframes**
+### Wireframes
 
 The Wireframes were produced using [Balsamiq](https://balsamiq.com/). 
 The final site varies from the wireframes due to developments that occurred during the building process. 
@@ -131,11 +132,39 @@ The final site varies from the wireframes due to developments that occurred duri
 
 - The navigation bar is responsive and fixed at the top of the page where it shows the logo and name on the right.
 - The navigation links on the right take the user to different sections on the same page.
-        * [Landing Page](#landing-page)
-        * [About Section](#about-section)
-        * [Collection Section](#collection-section)
-        * [Contact Section](#contact-section)
-        * [Footer](#footer)
+![Navagation Bar](./documentation/navigation.png)
+
+### Header
+- The header provides information about what the site is on the left side with a brown button to draw the user's attention to click and learn more about the business.
+- On the right side we have the hero image that based on it we choose the color palette to bring an attractive designer to users
+![Header](./documentation/header.png)
+
+### Features Section
+- The products section in four columns that show details of our features and identity that is to users.
+![Features section](./documentation/features.png)
+
+### About Section
+- The section about shows when our small business started and our main goal with users.
+![About section](./documentation/about.png)
+
+### Product Section
+- There are four columns and four lines in the products section that present information about the products we offer with image, product name and price.
+- This section is updated weekly to better serve our users.
+![Product Section](./documentation/products.png)
+
+### Newsletter Section
+- The newsletter section has a form to collect details from customers who want to know about our product updates.
+- The form collects the user's name, email and 3 options of how often the user buy with us.
+![Newsletter Section](./documentation/newsletter.png)
+
+### Footer
+- The footer has 4 columns with contact information.
+- In the first column are the company logo that leads to the top of the page and 3 social media links.
+- The second column the user identifies our address, telephone number and contact email.
+- The next two columns to the right of the footer are links to sections of the entire page
+![Footer](./documentation/footer.png)
+
+   
 
 ### Languages Used
 
@@ -183,7 +212,7 @@ To make a copy or ‘fork’ the repository -
 
 
 
-## **TESTING**
+## Testing
 
 Please refer [**_here_**](TESTING.md) for more information on testing of the Fresh-E-Mart website. 
 
