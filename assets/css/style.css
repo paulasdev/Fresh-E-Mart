@@ -119,7 +119,7 @@ header {
 
 .hero-section {
 
-    background-color: #aad0b2; 
+    background-color: #aad0b2;
 }
 
 .hero {
@@ -549,30 +549,33 @@ footer {
 
 
 /* Media queries */
-@media(max-width: 320px){ 
+@media(max-width: 320px) {
 
-  
+
     .product-list,
     .feature {
         display: block;
         font-size: 2px;
-      
+
     }
+
     .product-item p {
         font-size: 9px;
     }
+
     .product-item li {
         font-size: 7px;
     }
+
     .cta-form label {
-    font-size: 10px;
+        font-size: 10px;
     }
 
-    
+
     .cta-form {
         grid-template-columns: 1fr;
         padding: 0;
-        
+
     }
 }
 
@@ -581,7 +584,7 @@ footer {
     .logo {
         width: auto;
         margin: auto;
-     
+
     }
 
     .main-nav {
@@ -605,7 +608,7 @@ footer {
         text-align: center;
         gap: 3rem;
         justify-content: center;
-    
+
     }
 
     .hero-section h1 {
@@ -630,11 +633,11 @@ footer {
 
     }
 
-    
+
     .cta-form {
-    
+
         padding: 2.3rem;
-        
+
     }
 
     .footer-nav {
@@ -687,7 +690,7 @@ footer {
 
     .cta-text-box {
         padding: 3.2rem;
-        
+
     }
 
     .newsletter,
@@ -703,8 +706,3 @@ footer {
 
     }
 }
-
-
-
-
-

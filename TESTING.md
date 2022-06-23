@@ -62,4 +62,3 @@ The site was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox
 ### Unresolved
 There is a small gap between the form image and the background that I couldn't adjust.
 
-Back to the [README.md](./README.md#testing)

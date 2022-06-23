@@ -210,12 +210,13 @@ To make a copy or ‘fork’ the repository -
 6. press enter and the local clone will be created 
 
 
-## Testing
+### Testing
 
 [Testing.md](TESTING.md) 
 
-## Credits 
+### Credits 
+I would like to thank my mentor Simen Daehlin for his guidance, help, patience and advice.
 
-## Media
+### Media
 Product and Hero images are from the free website [Vecteezy](https://www.vecteezy.com/).
 
