@@ -16,15 +16,15 @@ This website aims to keep our customers informed about the best prices and quali
 ## **Table of Contents**
 
 1. [UX Development](#ux-development)
-    * [PROJECT GOAL](#project-goal)
+    * [Project Goal](#project-goal)
 
-    * [USER STORIES](#user-stories)
+    * [User Stories](#user-stories)
         * [New User](#new-user)
         * [Returning Users](#returning-users)
         * [Admin User](#admin-user)
         * [Target Audience](#target-audience)
 
-    * [DESIGN](#design)
+    * [Design](#design)
         * [Colour Scheme](#colour-scheme)
         * [Typography](#typography)
         * [Imagery](#imagery)
@@ -32,7 +32,7 @@ This website aims to keep our customers informed about the best prices and quali
         * [Wireframes](#wireframes)
       
 2. [Features](#features)  
-    * [EXISTING FEATURES](#existing-features)
+    * [Existing Features](#existing-features)
         * [Navigation Bar](#navigation-bar)
         * [Header](#header)
         * [Features Section](#features-section)
@@ -66,7 +66,6 @@ The website should promote the small fruit and vegetable shop to the local commu
 
 
 ## User Stories
-
 ### New User
 * I want to easily navigate the site and find the relevant information easily.
 * I want to know more about the fruits and vegetables available and prices.
@@ -86,10 +85,10 @@ The website should promote the small fruit and vegetable shop to the local commu
 * Receive the correct information from subscribers
 * Send correct information to users.
 
-## Target Audience
+### Target Audience
 * Fruit and vegetable consumers.
        
-# Design
+## Design
 ### Colour Scheme
 
 The colour scheme was inspired by the hero image, with different shades of green and a brown tone for the CTA.
@@ -126,7 +125,7 @@ The final site varies from the wireframes due to developments that occurred duri
 #### Tablet
 ![tablet Wireframe](./documentation/tablet.png)
 
-# Features
+## Features
 
 ### Navigation Bar
 
@@ -211,10 +210,12 @@ To make a copy or ‘fork’ the repository -
 6. press enter and the local clone will be created 
 
 
-
 ## Testing
 
-Please refer [**_here_**](TESTING.md) for more information on testing of the Fresh-E-Mart website. 
+[Testing.md](TESTING.md) 
 
 ## Credits 
+
+## Media
+Product and Hero images are from the free website [Vecteezy](https://www.vecteezy.com/).
 

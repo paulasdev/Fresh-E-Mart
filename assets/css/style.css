@@ -549,11 +549,29 @@ footer {
 
 
 /* Media queries */
-@media (min-width: 400px) {
+@media(max-width: 320px){ 
+
+  
+    .product-list,
+    .feature {
+        display: block;
+        font-size: 2px;
       
-    .cta-form {
+    }
+    .product-item p {
+        font-size: 9px;
+    }
+    .product-item li {
+        font-size: 7px;
+    }
+    .cta-form label {
+    font-size: 10px;
+    }
+
     
-        padding: 0 9.6rem;
+    .cta-form {
+        grid-template-columns: 1fr;
+        padding: 0;
         
     }
 }
