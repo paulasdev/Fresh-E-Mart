@@ -6,11 +6,9 @@ The Fresh-E-Mart site has been tested in the following ways -
     - [W3C HTML Validator](#w3c-html-validator) 
     - [W3C CSS Validator](#w3c-css-validator)
 - [Lighthouse](#lighthouse)
-- [Responsiveness](#responsiveness)
 - [A11y Color Contrast Accessibility Checker](#a11y-color-contrast-accessibility-checker)
 - [Browser Compatibility](#browser-compatibility)
 - [Testing User Stories](#testing-user-stories)
-- [Peer Review](#peer-review)
 - [Bugs](#bugs)
     - [Resolved](#resolved)
     - [Unresolved](#unresolved)
@@ -48,20 +46,6 @@ I Used Lighthouse in Chrome Developer Tools to test each of the pages for:
 - As an example, the results for the Fresh-E-Mart website for both Mobile.
 
 ![Lighthouse Testing Mobile](./documentation/lighthouse.png)
-
-
-## Responsiveness 
-
-Responsive design tests were carried out manually using [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/). 
-
-This included:
-- Iphone SE, XR, 12pro
-- Pixel 5
-- Samsung Galaxy S8, S20 Ultra, A51/71
-- Ipad Air & Mini
-- Surface pro 7 & duo
-- Galaxy Fold
-- Nest Hub & Hub Max
 
 
 ## A11y Color Contrast Accessibility Checker

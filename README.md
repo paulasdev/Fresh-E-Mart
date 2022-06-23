@@ -28,6 +28,7 @@ This website aims to keep our customers informed about the best prices and quali
         * [Colour Scheme](#colour-scheme)
         * [Typography](#typography)
         * [Imagery](#imagery)
+        * [Site Structure](#site-structure)
         * [Wireframes](#wireframes)
       
 2. [Features](#features)  
@@ -95,15 +96,6 @@ The colour scheme was inspired by the hero image, with different shades of green
 
 The colour palette was created using the [Coolors](https://coolors.co/7b3307-113719-2b8a3e-415f47-aad0b2) to generate some colour codes as inspiration for the site.
 
-**Site Structure**
-
-Fresh-E-Mart is a 4 sections and 2 pages website. The home page is the default loading page. the other sections are accessible from the navigation menu at all times.  
-
-**Wireframes**
-
-The Wireframes were produced using [Balsamiq](https://balsamiq.com/). 
-The final site varies from the wireframes due to developments that occurred during the building process. 
-
 **Typography**
 
 Google Fonts was used for the following fonts:
@@ -114,6 +106,36 @@ Roboto Mono is used for the body text on the site. It is a monospace font.
 **Imagery**
 The photos featured throughout the site were obtained from free image providers such as Vecteezy, Pexels, Pixibay.
 
+**Site Structure**
+
+Fresh-E-Mart is a 4 sections and 2 pages website. The home page is the default loading page. the other sections are accessible from the navigation menu at all times.  
+
+**Wireframes**
+
+The Wireframes were produced using [Balsamiq](https://balsamiq.com/). 
+The final site varies from the wireframes due to developments that occurred during the building process. 
+
+#### Phone
+![Mobile Wireframe](./documentation/mobile.png)
+
+#### Desktop
+
+![Desktop Wireframe](./documentation/desktop_wireframe.png)
+
+#### Tablet
+![tablet Wireframe](./documentation/tablet.png)
+
+# Features
+
+### Navigation Bar
+
+- The navigation bar is responsive and fixed at the top of the page where it shows the logo and name on the right.
+- The navigation links on the right take the user to different sections on the same page.
+        * [Landing Page](#landing-page)
+        * [About Section](#about-section)
+        * [Collection Section](#collection-section)
+        * [Contact Section](#contact-section)
+        * [Footer](#footer)
 
 ### Languages Used
 
@@ -130,26 +152,40 @@ The photos featured throughout the site were obtained from free image providers 
 - [Gitpod](https://www.gitpod.io/) - used to used to create and host the website
 - [Github](https://github.com/) - used to deploy the website 
 - [Am I responsive](https://ui.dev/amiresponsive) - to create an image displaying the home page on various devices 
+- [Logo creator](https://logo.e.jimdo.com/) - to create logo
+
+### Deployment 
+
+The site was deployed to GitHub pages. 
+
+### Deploy to GitHub Pages
+
+1. Navigate to the settings tab in the GitHub repository 
+2. Once in settings, navigate to the pages tab on the left of the page 
+3. Under source, select branch ‘master’ and then click ‘save’
+4. page will no automatically refresh and show a detailed ribbon display to indicate deployment 
+
+### To Fork the Repository 
+
+To make a copy or ‘fork’ the repository - 
+
+1. Log into GitHub and locate repository 
+2. On the right hand side of the page select the ‘fork’ option to create and copy of the original
+
+### To create a Local Clone 
+
+1. under the repository name, click on the ‘code’ tab 
+2. in the clone box, HTTPS tab, click on the clipboard icon 
+3. in your IED open GitBash 
+4. Changed the current working directory to the location you want the cloned directory to be made
+5. Type ‘git clone’ and then paste the URL copied from GitHub
+6. press enter and the local clone will be created 
 
 
-### Deployment & Local Development
 
-
-
-# **TESTING**
+## **TESTING**
 
 Please refer [**_here_**](TESTING.md) for more information on testing of the Fresh-E-Mart website. 
 
+## Credits 
 
-
-## *Accessibility
-  
- I confirmed that the colors and fonts chosen are easy to read and acessible by running it through lighthouse in devtools
-   
-![lighthouse](documentation/lighthouse.png)
-
-## **Imagery**
-
-## **Wireframes**
-      logo creator: https://logo.e.jimdo.com/
-      color: https://maketintsandshades.com/
