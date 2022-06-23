@@ -10,7 +10,6 @@ The Fresh-E-Mart site has been tested in the following ways -
 - [Browser Compatibility](#browser-compatibility)
 - [Testing User Stories](#testing-user-stories)
 - [Bugs](#bugs)
-    - [Resolved](#resolved)
     - [Unresolved](#unresolved)
 
 
@@ -60,6 +59,7 @@ The site was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox
 
 
 ## Bugs
-
+### Unresolved
+There is a small gap between the form image and the background that I couldn't adjust.
 
 Back to the [README.md](./README.md#testing)
