@@ -46,7 +46,6 @@ This website aims to keep our customers informed about the best prices and quali
     * [Tools and Libraries](#tools-and-libraries)
 
 4. [Testing](#testing)
-    * [Unfixed Bugs](#unfixed-bugs)
 
 5. [Deployment](#deployment)  
   
